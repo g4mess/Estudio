@@ -49,7 +49,11 @@
                 rm [nombre]: eliminar arhicov o carpeta vacia <br>
                 rm -dtr [nombre]: eliminar carpeta con archivos <br>
                 CTRL + l = clear : para eliminar los textos antigusos de la consola <br>
-
+                cd ~/.ssh/: Para navegar rapido de devuelta al inicio <br>
+                shh-keygen -t rsa -b 4096 -C "corre@o" : Se utiliza para crear unas llaves de seguridad <br>
+                evaul $(ssh-agent -s): verificar que este funcionando el dectactor ssh de nuestro pc <br>
+                ssh-add ~/.ssh/id_rsa : Para agregar llave privada a tu pc <br>
+                
                 </p>
                 <h4>Comandos para git y Utilizacion</h4>
                 <p>
@@ -70,6 +74,10 @@
                     git clone [url]: trae archivos de afuera donde esta el save total <br>
                     git commit -am "mensaje": hace un commit de archivos viejos sin necesidad de add <br>
                     git branch "nombre de la rama" : Para crear una nueva ramificacion <br>
+                    git merge [version]: Para combinar la version y agregar una rama <br>
+                    git pull origin main: Para traer cosas que no tenemos de github a tu entorno <br>
+                    git pull origin main --allow-unrelated-histories: Fuerza el cambio sin acomodar las historias <br>
+                    git remote set-url origin [https o ssh]: cambia el vinculo donde esta conectado el git <br>
 
 
                 </p>
