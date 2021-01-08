@@ -54,7 +54,8 @@
                 evaul $(ssh-agent -s): verificar que este funcionando el dectactor ssh de nuestro pc <br>
                 ssh-add ~/.ssh/id_rsa : Para agregar llave privada a tu pc <br>
                 sudo apt autoremove: se utiliza para eliminar paquetes que no sirven por las nuevas actualizaciones <br>
-                
+                alias (nombre) =(comando) :se utiliza para guadar comandos largos <br>
+
                 </p>
                 <h4>Comandos para git y Utilizacion</h4>
                 <p>
@@ -79,7 +80,26 @@
                     git pull origin main: Para traer cosas que no tenemos de github a tu entorno <br>
                     git pull origin main --allow-unrelated-histories: Fuerza el cambio sin acomodar las historias <br>
                     git remote set-url origin [https o ssh]: cambia el vinculo donde esta conectado el git <br>
-
+                    git tag -a(nombre) -m "mensaje" (version) : este comando guarda un tag en la version <br>
+                    git tag: para mirar los tags existentes <br>
+                    git show-ref --tags: mirar la refecia de version que tiene un tag <br>
+                    git push origin --tags: Para enviar al github los tags que tenemos <br>
+                    git tag -d nombredeltag : Eliminar un tag del git <br>
+                    git push origin :refs/tags/nombredeltag : para eliminar tag de github <br>
+                    git show-branch -all: ver todas las ramas existentes <br>
+                    git push origin "branch": enviar la rama al github <br>
+                    <br>
+                <h4>
+                    trabajo con multiples personas
+                </h4>
+                <p>
+                    Ahora bien cuando tenemos que entrar a un trabajo con github debemos seguir los siguientes paso: <br>
+                    -1 git clone (url o ssh): para clonar los archivos del main <br>
+                    -2 trabajar con lo que nos digan <br>
+                    <br>
+                    Ahora para ayudar al acceso de un trabajo debemos ir a settings y agregar a la otra persona con su correo o user de github <br>
+                    
+                </p>
 
                 </p>
 </body>
