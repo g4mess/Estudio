@@ -55,7 +55,7 @@
                 ssh-add ~/.ssh/id_rsa : Para agregar llave privada a tu pc <br>
                 sudo apt autoremove: se utiliza para eliminar paquetes que no sirven por las nuevas actualizaciones <br>
                 alias (nombre) =(comando) :se utiliza para guadar comandos largos <br>
-
+                sudo apt-get -f install: para instalar cosas no sé de donde <br>
                 </p>
                 <h4>Comandos para git y Utilizacion</h4>
                 <p>
@@ -88,6 +88,10 @@
                     git push origin :refs/tags/nombredeltag : para eliminar tag de github <br>
                     git show-branch -all: ver todas las ramas existentes <br>
                     git push origin "branch": enviar la rama al github <br>
+                    gitk: abre el visualizador de git <br>
+                    git clone (url): para clonar repositorios a un nuevo git <br>
+                    git stash: comando para gaurdar los archvios en una memoria temporar y volver al ultimo commit <br>
+                    git stash pop:
                     <br>
                 <h4>
                     trabajo con multiples personas
@@ -100,7 +104,25 @@
                     Ahora para ayudar al acceso de un trabajo debemos ir a settings y agregar a la otra persona con su correo o user de github <br>
                     
                 </p>
+                <h4>Pull request github</h4>
+                <p>El pull request es una forma de pedir cambios para subirlo al main y así poder hacer merge a la rama con los cambios que se crean correctos <br>
+                
+                </p>
+                <h4>Crear un Fork y hacer pull requests al original</h4>
+                <p>
+                    Esto se realiza cuando quieres trabajar en un proyecto a distancia y que es publico pero no tienes tantos permisos <br>
 
+                </p>
+                <h4>Crar archivo .gitignore</h4>
+                <p>
+                    Cuanhdo necesito realizar que unos archivos tipo *.jps o algo similar no esten en el git o no los suba <br>
+                    se crea el archivo: sebas.gitignore y dentro de el lo tengo que editar <br>
+                    <br>
+                    - con # puedo comentar <br>
+                    - con *.jpg o imagen/*/js: para comentar que quiero que lo ignore
+                    - con !imagenes/main/js: para evitar que ignore ese archivo <br>
+
+                </p>
                 </p>
 </body>
 </html>
