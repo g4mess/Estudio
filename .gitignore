@@ -1,0 +1,6 @@
+#Voy a ignorar todo este tipos de archivos importantes
+# y otros como imagenes que siempre se eliminan
+
+*.jpg
+*.png
+*.jpeg
