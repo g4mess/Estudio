@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: peru;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:antiquewhite;
+}
+h4{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rosybrown;
+}
+li{
+    color:antiquewhite;
+    
+}
+img{
+    width: 15%;
+    height: 15%;
+    border-color: antiquewhite;
+    border: 5px solid;
+    border-radius: 50px;
+}
